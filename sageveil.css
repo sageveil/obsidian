@@ -1,0 +1,77 @@
+.theme-dark {
+  --color-base-00: #101411;
+  --color-base-05: #1D2320;
+  --color-base-10: #1F2624;
+  --color-base-20: #26322A;
+  --color-base-25: #3F322C;
+  --color-base-30: #4E504C;
+  --color-base-35: #616560;
+  --color-base-40: #8C918C;
+  --color-base-50: #A8AFA6;
+  --color-base-60: #c3cdc0;
+  --color-base-70: #c3cdc0;
+  --color-base-100: #c3cdc0;
+
+  --background-primary: #101411;
+  --background-primary-alt: #1D2320;
+  --background-secondary: #1D2320;
+  --background-secondary-alt: #1F2624;
+  --background-modifier-cover: rgba(16, 20, 17, 0.8);
+  --background-modifier-border: #4E504C;
+  --background-modifier-form-field: #1F2624;
+  --background-modifier-hover: #3F322C;
+
+  --text-normal: #A8AFA6;
+  --text-muted: #8C918C;
+  --text-faint: #616560;
+  --text-accent: #67825B;
+  --text-accent-hover: #809a73;
+  --text-on-accent: #101411;
+  --text-highlight-bg: rgba(180, 160, 90, 0.15);
+  --text-highlight-bg-active: rgba(180, 160, 90, 0.25);
+  --text-selection: #3F322C;
+
+  --h1-color: #809a73;
+  --h2-color: #809a73;
+  --h3-color: #809a73;
+  --h4-color: #809a73;
+  --h5-color: #809a73;
+  --h6-color: #809a73;
+
+  --link-color: #67825B;
+  --link-color-hover: #809a73;
+  --link-external-color: #65806B;
+  --link-external-color-hover: #809a73;
+  --link-unresolved-color: #8C918C;
+
+  --code-background: #1F2624;
+  --code-normal: #A8AFA6;
+  --code-comment: #8C918C;
+  --code-function: #809a73;
+  --code-important: #935155;
+  --code-keyword: #9D868C;
+  --code-operator: #A8AFA6;
+  --code-property: #B4A05A;
+  --code-punctuation: #616560;
+  --code-string: #67825B;
+  --code-tag: #935155;
+  --code-value: #916f54;
+
+  --color-red: #935155;
+  --color-orange: #916f54;
+  --color-yellow: #B4A05A;
+  --color-green: #67825B;
+  --color-cyan: #65806B;
+  --color-blue: #65806B;
+  --color-purple: #9D868C;
+  --color-pink: #baa5ab;
+
+  --interactive-normal: #1F2624;
+  --interactive-hover: #3F322C;
+  --interactive-accent: #67825B;
+  --interactive-accent-hover: #809a73;
+
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #4E504C;
+  --scrollbar-active-thumb-bg: #8C918C;
+}
