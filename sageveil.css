@@ -66,6 +66,11 @@
   --color-purple: #9D868C;
   --color-pink: #baa5ab;
 
+  --tag-color: #101411;
+  --tag-background: #9D868C;
+  --tag-background-hover: #baa5ab;
+  --tag-border-width: 0px;
+
   --interactive-normal: #1F2624;
   --interactive-hover: #3F322C;
   --interactive-accent: #67825B;
