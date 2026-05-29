@@ -1,0 +1,105 @@
+.theme-dark {
+  --sv-black: #101411;
+  --sv-red: #9A6B6B;
+  --sv-green: #7E9270;
+  --sv-yellow: #AC9C66;
+  --sv-blue: #8A8294;
+  --sv-magenta: #A37F90;
+  --sv-cyan: #6F9476;
+  --sv-white: #A8AFA6;
+  --sv-bright-black: #26322A;
+  --sv-bright-red: #B08585;
+  --sv-bright-green: #95A888;
+  --sv-bright-yellow: #C6B67E;
+  --sv-bright-blue: #A39DAC;
+  --sv-bright-magenta: #BC9AAC;
+  --sv-bright-cyan: #88AB90;
+  --sv-bright-white: #c3cdc0;
+  --sv-surface: #1D2320;
+  --sv-overlay: #1F2624;
+  --sv-highlight: #33423A;
+  --sv-border: #4E504C;
+  --sv-muted: #8C918C;
+  --sv-dim: #616560;
+
+  --color-base-00: var(--sv-black);
+  --color-base-05: var(--sv-surface);
+  --color-base-10: var(--sv-overlay);
+  --color-base-20: var(--sv-bright-black);
+  --color-base-25: var(--sv-highlight);
+  --color-base-30: var(--sv-border);
+  --color-base-35: var(--sv-dim);
+  --color-base-40: var(--sv-muted);
+  --color-base-50: var(--sv-white);
+  --color-base-60: var(--sv-bright-white);
+  --color-base-70: var(--sv-bright-white);
+  --color-base-100: var(--sv-bright-white);
+
+  --background-primary: var(--sv-black);
+  --background-primary-alt: var(--sv-surface);
+  --background-secondary: var(--sv-surface);
+  --background-secondary-alt: var(--sv-overlay);
+  --background-modifier-cover: rgba(16, 20, 17, 0.8);
+  --background-modifier-border: var(--sv-border);
+  --background-modifier-form-field: var(--sv-overlay);
+  --background-modifier-hover: var(--sv-highlight);
+
+  --text-normal: var(--sv-white);
+  --text-muted: var(--sv-muted);
+  --text-faint: var(--sv-dim);
+  --text-accent: var(--sv-green);
+  --text-accent-hover: var(--sv-bright-green);
+  --text-on-accent: var(--sv-black);
+  --text-highlight-bg: rgba(180, 160, 90, 0.15);
+  --text-highlight-bg-active: rgba(180, 160, 90, 0.25);
+  --text-selection: var(--sv-highlight);
+
+  --h1-color: var(--sv-bright-green);
+  --h2-color: var(--sv-bright-green);
+  --h3-color: var(--sv-bright-green);
+  --h4-color: var(--sv-bright-green);
+  --h5-color: var(--sv-bright-green);
+  --h6-color: var(--sv-bright-green);
+
+  --link-color: var(--sv-green);
+  --link-color-hover: var(--sv-bright-green);
+  --link-external-color: var(--sv-blue);
+  --link-external-color-hover: var(--sv-bright-green);
+  --link-unresolved-color: var(--sv-muted);
+
+  --code-background: var(--sv-overlay);
+  --code-normal: var(--sv-white);
+  --code-comment: var(--sv-muted);
+  --code-function: var(--sv-bright-green);
+  --code-important: var(--sv-red);
+  --code-keyword: var(--sv-magenta);
+  --code-operator: var(--sv-white);
+  --code-property: var(--sv-yellow);
+  --code-punctuation: var(--sv-dim);
+  --code-string: var(--sv-green);
+  --code-tag: var(--sv-red);
+  --code-value: var(--sv-cyan);
+
+  --color-red: var(--sv-red);
+  --color-orange: var(--sv-cyan);
+  --color-yellow: var(--sv-yellow);
+  --color-green: var(--sv-green);
+  --color-cyan: var(--sv-blue);
+  --color-blue: var(--sv-blue);
+  --color-purple: var(--sv-magenta);
+  --color-pink: var(--sv-bright-magenta);
+
+  --tag-color: var(--sv-black);
+  --tag-background: var(--sv-magenta);
+  --tag-background-hover: var(--sv-bright-magenta);
+  --tag-border-width: 0px;
+
+  --interactive-normal: var(--sv-overlay);
+  --interactive-hover: var(--sv-highlight);
+  --interactive-accent: var(--sv-green);
+  --interactive-accent-hover: var(--sv-bright-green);
+
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: var(--sv-border);
+  --scrollbar-active-thumb-bg: var(--sv-muted);
+}
