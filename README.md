@@ -13,7 +13,7 @@
 
 ## Overview
 
-The sageveil Obsidian port provides a calm terminal palette that matches the rest of the ecosystem.
+The sageveil Obsidian port provides a calm, low-contrast theme that matches the rest of the ecosystem.
 
 ## Get the theme
 
@@ -29,23 +29,25 @@ Download the theme from the dedicated repository: <https://github.com/sageveil/o
 
 ## Generated files
 
-- `sageveil` – Obsidian theme file
+- `manifest.json` – Obsidian theme metadata
+- `theme.css` – Obsidian theme
 
 ## Apply sageveil
 
+### Community themes
+
+Once Sageveil is listed, open `Settings` -> `Appearance` -> `Themes` -> `Manage`, search for `Sageveil`, then select `Install and use`.
+
 ### From the generated artifact
 
-1. Build the file: `pnpm nx run obsidian:generate`
-2. Copy `dist/ports/obsidian/sageveil.css` to your vault snippets directory:
-   - macOS: `<vault>/.obsidian/snippets/sageveil.css`
-   - Linux: `<vault>/.obsidian/snippets/sageveil.css`
-   - Windows: `<vault>\\.obsidian\\snippets\\sageveil.css`
-3. In Obsidian, open `Settings` -> `Appearance` -> `CSS snippets`.
-4. Reload snippets (if needed) and enable `sageveil`.
+1. Build the theme: `pnpm nx run obsidian:generate`
+2. Create `<vault>/.obsidian/themes/Sageveil/`.
+3. Copy `dist/ports/obsidian/manifest.json` and `dist/ports/obsidian/theme.css` into that directory.
+4. Restart Obsidian, then select `Sageveil` under `Settings` -> `Appearance` -> `Themes`.
 
 ### From prebuilt releases
 
-If you install from [sageveil/obsidian](https://github.com/sageveil/obsidian), follow that repository's release instructions.
+Download `manifest.json` and `theme.css` from [sageveil/obsidian releases](https://github.com/sageveil/obsidian/releases) and install them as described above.
 
 ## Development
 
