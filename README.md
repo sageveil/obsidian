@@ -17,9 +17,17 @@ The sageveil Obsidian port provides a calm, low-contrast theme that matches the 
 
 ## Get the theme
 
+### Obsidian community themes
+
+1. Open `Settings` -> `Appearance` in Obsidian.
+2. Next to `Themes`, select `Manage`.
+3. Search for `Sageveil`, then select `Install and use`.
+
+Updates are available through Obsidian's community theme manager.
+
 ### Prebuilt releases
 
-Download the theme from the dedicated repository: <https://github.com/sageveil/obsidian>.
+Download `manifest.json` and `theme.css` from [sageveil/obsidian releases](https://github.com/sageveil/obsidian/releases).
 
 ### Build from the monorepo
 
@@ -32,11 +40,7 @@ Download the theme from the dedicated repository: <https://github.com/sageveil/o
 - `manifest.json` – Obsidian theme metadata
 - `theme.css` – Obsidian theme
 
-## Apply sageveil
-
-### Community themes
-
-Once Sageveil is listed, open `Settings` -> `Appearance` -> `Themes` -> `Manage`, search for `Sageveil`, then select `Install and use`.
+## Apply sageveil manually
 
 ### From the generated artifact
 
